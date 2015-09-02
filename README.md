@@ -88,11 +88,14 @@ Output:
 
 > ...
 
-**Example 3.** Connecting to host db.myserver.org] with password. Password will be prompted from STDIN without echoing (form like --dbpass=mypassword not supported, 'mypassword' will be ignored).
+**Example 3.** Connecting to host db.myserver.org with password. Password will be prompted from STDIN without echoing (form like --dbpass=mypassword not supported, 'mypassword' will be ignored).
 
     $ ./gcvs2sql.pl --dbhost=db.myserver.org --dbuser=james --dbpasswd --dbname=gcvs
+
+Output: like in Example 2.
 
 **Example 4.** Using quiet mode (do not print anything)
 
     $ ./gcvs2sql.pl --dbhost=db.myserver.org --dbuser=jane --dbpasswd --dbname=gcvs --quiet
 
+No output.
