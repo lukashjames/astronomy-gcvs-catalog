@@ -56,6 +56,10 @@ List of options:
 Examples:
 ---------
 
+Before execution script do not forget create database 'gcvs' and import table structure from file gcvs_my.sql:
+
+    $ mysql -h dbhost -u username -p gcvs < gcvs_my.sql
+
 **Example 1.** Without any option:
 
     $ ./gcvs2sql.pl
