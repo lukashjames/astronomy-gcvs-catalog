@@ -20,6 +20,7 @@ Requirements:
 If you want your own import with Perl script, you need file gcvs_cat.dat.gz from B/gcvs ([direct link](http://cdsarc.u-strasbg.fr/vizier/ftp/cats/B/gcvs/gcvs_cat.dat.gz)).
 
 Perl script requirements:
+
 * PerlIO::gzip
 * DBI
 * Getopt::Long
