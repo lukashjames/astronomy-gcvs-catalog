@@ -40,6 +40,8 @@ Using Perl script (from console):
 
     $ ./gcvs2sql.pl [[--dbhost=db.myserver.org] --dbuser=username [--dbpasswd] --dbname=databasename [--quiet]]
 
+*Note* Do not forget download [this file](http://cdsarc.u-strasbg.fr/vizier/ftp/cats/B/gcvs/gcvs_cat.dat.gz).
+
 Options:
 --------
 
