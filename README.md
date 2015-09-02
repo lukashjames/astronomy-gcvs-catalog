@@ -74,9 +74,19 @@ Output:
 
 > --quiet  Do not print anything (quiet mode)
 
-**Example 2.** Connecting to localhost with empty password (ATTENTION!!! Using empty password is not recommended by security reasons).
+**Example 2.** Connecting to localhost with empty password (**ATTENTION!!! Using empty password is not recommended by security reasons**).
 
     $ ./gcvs2sql.pl --dbuser=username --dbname=databasename
+
+Output:
+
+> 010001 |R     And *|002401.9+383437 ...
+
+> 010002 |S     And *|004243.1+411605 ...
+
+> 010003 |T     And  |002223.1+265946 ...
+
+> ...
 
 **Example 3.** Connecting to host db.myserver.org] with password. Password will be prompted from STDIN without echoing (form like --dbpass=mypassword not supported, 'mypassword' will be ignored).
 
